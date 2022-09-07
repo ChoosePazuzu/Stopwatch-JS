@@ -9,14 +9,13 @@
     <title>Nick StopWatch</title>
 </head>
 <body>
-    <div>
-        <span>minutes<h2 id="min">00</h2></span>
-        <span>seconds<h2 id="sec">00</h2></span>
-        <h1>hello world</h1>
+    <div id="timer-div">
+        <span class="timer-span">Minutes<h2 id="min">00</h2></span>
+        <span class="timer-span">Seconds<h2 id="sec">00</h2></span>
     </div>
-    <div>
-        <button onclick="watch('start')">Start</button>
-        <button onclick="watch('stop')">Stop</button>
+    <div id="button-div">
+        <button class="button" onclick="watch('start')">Start</button>
+        <button class="button" onclick="watch('stop')">Stop</button>
     </div>
 </body>
 </html>
